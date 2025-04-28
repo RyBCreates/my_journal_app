@@ -3,6 +3,12 @@
   flex-direction: column;
 }
 
+.journal__prompt {
+  margin: 0;
+  padding-bottom: 12px;
+  padding-left: 12px;
+}
+
 .journal__text-entry {
   border-radius: 15px;
   padding: 10px 0 0 12px;
@@ -11,4 +17,15 @@
 .journal__save-button {
   padding: 20px;
   margin-top: 12px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  opacity: 80%;
+  width: 200px;
+  border-radius: 20px;
+  text-wrap: nowrap;
+}
+
+.journal__save-button:hover {
+  opacity: 100%;
 }

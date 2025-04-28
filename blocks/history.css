@@ -1,0 +1,20 @@
+.history {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.history__title {
+  font-size: 30px;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.history__entry {
+  margin: 8px, 0;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  font-family: "Georgia", serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
