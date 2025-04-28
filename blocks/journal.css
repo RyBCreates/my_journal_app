@@ -1,0 +1,14 @@
+.journal {
+  display: flex;
+  flex-direction: column;
+}
+
+.journal__text-entry {
+  border-radius: 15px;
+  padding: 10px 0 0 12px;
+}
+
+.journal__save-button {
+  padding: 20px;
+  margin-top: 12px;
+}
