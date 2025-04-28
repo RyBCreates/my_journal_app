@@ -6,19 +6,26 @@
     <title>My Journal App</title>
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
-    <h1>My Growth Journal</h1>
-    <textarea
-      id="entryInput"
-      placeholder="Write your thoughts here..."
-      rows="5"
-      cols="40"
-    ></textarea
-    ><br /><br />
-    <button id="saveButton">Save Entry</button>
-
-    <h2>Your Past Entries:</h2>
-    <div id="entriesContainer"></div>
+  <body class="page">
+    <header class="header">
+      <h1 class="header__title">My Growth Journal</h1>
+    </header>
+    <main class="content">
+      <section class="journal">
+        <textarea
+          class="journal__text-entry"
+          id="entryInput"
+          placeholder="Write your thoughts here..."
+          rows="5"
+          cols="40"
+        ></textarea>
+        <button class="journal__save-button" id="saveButton">Save Entry</button>
+      </section>
+      <section class="history">
+        <h2 class="history__title">Your Past Entries:</h2>
+        <div class="history__entries-container" id="entriesContainer"></div>
+      </section>
+    </main>
 
     <script src="script.js"></script>
   </body>
