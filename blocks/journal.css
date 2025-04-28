@@ -12,6 +12,13 @@
 .journal__text-entry {
   border-radius: 15px;
   padding: 10px 0 0 12px;
+  resize: none;
+}
+
+.journal__buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .journal__save-button {
@@ -27,5 +34,21 @@
 }
 
 .journal__save-button:hover {
+  opacity: 100%;
+}
+
+.journal__new-prompt-button {
+  padding: 20px;
+  margin-top: 12px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  opacity: 80%;
+  width: 200px;
+  border-radius: 20px;
+  text-wrap: nowrap;
+}
+
+.journal__new-prompt-button:hover {
   opacity: 100%;
 }
