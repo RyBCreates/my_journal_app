@@ -1,0 +1,20 @@
+{
+  "name": "my_journal_app",
+  "version": "1.0.0",
+  "description": "A Journaling App",
+  "homepage": "https://github.com/Bombingrun3/my_journal_app#readme",
+  "bugs": {
+    "url": "https://github.com/Bombingrun3/my_journal_app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bombingrun3/my_journal_app.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
