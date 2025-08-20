@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Bombingrun3/my_journal_app.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Ryan Bommarito",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
